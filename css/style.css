@@ -14,7 +14,7 @@
 
 /*ETIQUETAS*/
 body{
-background-image: url(../img/fondo.jpg);
+background-image: url(../img/fondo1.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -22,7 +22,7 @@ background-size: cover;
 h1{
 font-family: 'Shadows Into Light', cursive;
 color: white;
-margin-left: 10px;
+margin-left: 210px;
 font-size: 60px;
 text-align: center; 
 }
@@ -39,7 +39,8 @@ h3{
 font-family: 'Shadows Into Light', cursive;;
 color: white;
 font-size: 30px;
-text-align: center; 
+text-align:  center;
+margin: -5px;
 }
 
 
@@ -47,18 +48,26 @@ header{
 	width: 1000px;
 	height: 120 px;
 	background: rgba(255, 255, 255, 10,70);
+	background-image: url(../img/unad.jpg) ;
+	background-repeat: no-repeat;
+
 }
 
 nav{
 width: 1000px;
 height: 50px;
-background: red;
+background:  #FF6000;
 border-radius: 10px;
 
 }
+nav:hover{
+	
+}
 ul{
-margin: auto;
+margin-left: 30px;
+margin-right: 30px;
 padding-top: 4px;
+
 }
 
 li{
@@ -71,10 +80,14 @@ li{
 	box-shadow: 0 0 10px white inset; 
 
 }
+li:hover{
+	background: #FF6600;
+}
 
 section{
 	width: 700px;
-	background: gray;
+	background: #b3b3b3;	
+	opacity: 0.7;
 	height: 600px;
 	float: left;
 	margin-top: 20px;
@@ -91,14 +104,15 @@ aside{
 	border-radius: 10px;
 }
 
-footer{
+footer {
 width: 1000px;
-height: 70px;
-background: maroon;
+height: 40px;
+background: #FF6000;
 float: left;
 margin-top: 20px;
 border-radius: 10px;
 margin-bottom: 20px;
+
 }
 
 p{
@@ -111,8 +125,6 @@ p{
 }
 
 
-
-
 /*CLASES*/
 
 .ancho_menu_home{width: 900px;}
@@ -120,24 +132,7 @@ p{
 
 .menu:link{color: white; text-decoration: none;}
 .menu:visited{color: white; text-decoration: none;}
-.menu:hover{color: white; text-decoration: none; text-shadow: 0 0 13px white;}
+.menu:hover{color: white; text-decoration: none; text-shadow: 0 0 12px white;}
 .menu:active{color: white; text-decoration: none;}
 
 /*SEUDO CLASES*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
